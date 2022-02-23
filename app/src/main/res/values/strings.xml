@@ -4,5 +4,5 @@
     <string name="input_the_x_value">Input the X value :</string>
     <string name="input_the_y_value">Input the Y value :</string>
     <string name="btn_calculate">Calculate</string>
-    <string name="result">RESULT</string>
+    <string name="result">0</string>
 </resources>

@@ -2,6 +2,7 @@ package com.rechit.mlalgorithms
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -13,9 +14,14 @@ class RegressionActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var edtY: EditText
     private lateinit var btnCalculate: Button
     private lateinit var tvResult: TextView
+    private lateinit var tvTypeRegression: TextView
+    private lateinit var tvTypeDefinition: TextView
 
     companion object {
         private const val STATE_RESULT = "state_result"
+        const val EXTRA_NAME = "extra_name"
+        const val EXTRA_TYPE_NAME = "extra_type"
+        const val EXTRA_TYPE_DEFINITION = "extra_type_definition"
     }
 
 
@@ -27,6 +33,8 @@ class RegressionActivity : AppCompatActivity(), View.OnClickListener {
         edtY = findViewById(R.id.edt_y)
         btnCalculate = findViewById(R.id.btn_calculate)
         tvResult = findViewById(R.id.tv_result)
+        tvTypeRegression = findViewById(R.id.tv_type_regression)
+        tvTypeDefinition = findViewById(R.id.tv_type_definition)
 
         btnCalculate.setOnClickListener(this)
 
@@ -34,6 +42,17 @@ class RegressionActivity : AppCompatActivity(), View.OnClickListener {
             val result = savedInstanceState.getString(STATE_RESULT)
             tvResult.text = result
         }
+
+
+        // Change default action bar to toolbar by moving intent with data
+        setSupportActionBar(findViewById(R.id.regression_toolbar))
+        val name = intent.getStringExtra(EXTRA_NAME)
+        supportActionBar?.title = name
+
+        //
+        val regression_types = intent.getParcelableExtra<RegressionTypes>(EXTRA_TYPE_NAME) as RegressionTypes
+        tvTypeRegression.text = regression_types.type_name
+        tvTypeDefinition.text = regression_types.definition
     }
 
     override fun onClick(p0: View?) {
@@ -89,5 +108,14 @@ class RegressionActivity : AppCompatActivity(), View.OnClickListener {
         m = num/den
 
         return m
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean = when (item.itemId) {
+        R.id.action_type_regression -> {
+            true
+        } else -> {
+            super.onOptionsItemSelected(item)
+        }
+
     }
 }

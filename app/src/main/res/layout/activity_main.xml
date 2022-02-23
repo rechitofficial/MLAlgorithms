@@ -5,12 +5,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Supervised Learning"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
     <Button
         android:id="@+id/btn_regression"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Regression"/>
+
+    <Button
+        android:id="@+id/btn_classification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Classification"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unsupervised Learning"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+    <Button
+        android:id="@+id/btn_clustering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clustering"/>
+    <Button
+        android:id="@+id/btn_association"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Association"/>
 
 </LinearLayout>
