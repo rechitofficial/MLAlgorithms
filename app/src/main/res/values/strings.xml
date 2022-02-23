@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MLAlgorithms</string>
+    <string name="linear_regression_definition">Linear regression is a linear approach to modelling the relationship between a dependent variable and one or more independent variable, given data all you need is to predict y to create line y = mx + c with minimal loss function that is using least square formula</string>
+    <string name="input_the_x_value">Input the X value :</string>
+    <string name="input_the_y_value">Input the Y value :</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="result">RESULT</string>
+</resources>
