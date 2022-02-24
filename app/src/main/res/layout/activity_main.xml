@@ -43,5 +43,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Association"/>
+    <Button
+        android:id="@+id/btn_addNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
+        android:text="DIAL ME"/>
+    <Button
+        android:id="@+id/btn_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginTop="16dp"
+        android:text="Question to ask"
+        />
+    <TextView
+        android:id="@+id/tv_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem"
+        android:lines="9"/>
+
+
 
 </LinearLayout>
