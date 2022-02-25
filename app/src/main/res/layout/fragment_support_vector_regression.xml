@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SupportVectorRegressionFragment">
+
+    <TextView
+        android:id="@+id/tv_type_regression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:text="title"
+        android:textSize="27sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_type_definition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="definiton"
+        android:lines="5"
+        android:layout_marginTop="16dp"
+        />
+
+</LinearLayout>

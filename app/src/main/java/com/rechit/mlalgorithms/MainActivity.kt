@@ -46,14 +46,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 //move object with data
                 moveIntent.putExtra(RegressionActivity.EXTRA_NAME, btnName.text.toString())
                 //move object with parcelable
-                val type1 = RegressionTypes(
-                    "Linear Regression",
-                    "Linear regression is a linear approach to modelling the relationship between a dependent variable and one or more independent variable, given data all you need is to predict y to create line y = mx + c with minimal loss function that is using least square formula"
+                val type1 = AlgorithmTypes(
+                    "Regression",
+                    "Regression is a linear approach to modelling the relationship between a dependent variable and one or more independent variable, given data all you need is to predict y to create line y = mx + c with minimal loss function that is using least square formula"
                 )
                 // val type2 coming soon
-                moveIntent.putExtra(RegressionActivity.EXTRA_TYPE_NAME, type1)
-                moveIntent.putExtra(RegressionActivity.EXTRA_TYPE_DEFINITION, type1)
-
+                //moveIntent.putExtra(RegressionActivity.EXTRA_TYPE_NAME, type1)
+                moveIntent.putExtra(RegressionActivity.EXTRA_DEFINITION, type1)
                 startActivity(moveIntent)
             }
             R.id.btn_addNote -> {

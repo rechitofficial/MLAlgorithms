@@ -8,6 +8,15 @@
         <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/layout/activity_question.xml" value="0.22644927536231885" />
         <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/layout/activity_regression.xml" value="0.176" />
+        <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/layout/fragment_decision_tree_regression.xml" value="0.22644927536231885" />
+        <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/layout/fragment_lasso_regression.xml" value="0.22644927536231885" />
+        <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/layout/fragment_linear_regression.xml" value="0.22644927536231885" />
+        <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/layout/fragment_logistic_regression.xml" value="0.22644927536231885" />
+        <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/layout/fragment_polynomial_regression.xml" value="0.22644927536231885" />
+        <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/layout/fragment_random_forest_regression.xml" value="0.22644927536231885" />
+        <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/layout/fragment_regression_types.xml" value="0.11302083333333333" />
+        <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/layout/fragment_ridge_regression.xml" value="0.22644927536231885" />
+        <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/layout/fragment_support_vector_regression.xml" value="0.22644927536231885" />
         <entry key="..\:/CODEIN/Android/projects2022/MLAlgorithms/app/src/main/res/menu/menu.xml" value="0.136" />
       </map>
     </option>

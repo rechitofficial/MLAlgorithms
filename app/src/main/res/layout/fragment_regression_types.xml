@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegressionTypesFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/tv_type_regression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:text="Here are some types of regression"
+            android:textSize="21sp"
+            android:textStyle="bold"/>
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_type_definition"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="definiton"-->
+<!--            android:lines="5"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/input_the_x_value"-->
+<!--            android:paddingTop="16dp"/>-->
+<!--        <EditText-->
+<!--            android:id="@+id/edt_x"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/input_the_y_value"-->
+<!--            android:paddingTop="16dp"/>-->
+<!--        <EditText-->
+<!--            android:id="@+id/edt_y"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <Button-->
+<!--            android:id="@+id/btn_calculate"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/btn_calculate"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/tv_result"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="@string/result"-->
+<!--            android:textSize="24sp"-->
+<!--            android:layout_marginTop="16dp"/>-->
+<!--        <FrameLayout-->
+<!--            android:id="@+id/fl_regressionTypes"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Linear Regression"/>-->
+        <Button
+            android:id="@+id/btn_linearRegression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linear Regression"/>
+        <Button
+            android:id="@+id/btn_logisticRegression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logistic Regression"/>
+        <Button
+            android:id="@+id/btn_polynomialRegression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Polynomial Regression"/>
+        <Button
+            android:id="@+id/btn_supportVectorRegression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Support Vector Regression"/>
+        <Button
+            android:id="@+id/btn_desicionTreeRegression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decision Tree Regression"/>
+        <Button
+            android:id="@+id/btn_randomForestRegression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Random Forest Regression"/>
+        <Button
+            android:id="@+id/btn_ridgeRegression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ridge Regression"/>
+        <Button
+            android:id="@+id/btn_lassoRegression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lasso Regression:"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
