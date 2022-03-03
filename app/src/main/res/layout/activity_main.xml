@@ -9,6 +9,14 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/tv_machineLearning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why Machine Learning?"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/teal_700" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Supervised Learning"
@@ -67,6 +75,17 @@
         android:layout_height="wrap_content"
         android:text="Lorem"
         android:lines="9"/>
+    
+    <com.rechit.mlalgorithms.CustomEditText
+        android:id="@+id/edt_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <com.rechit.mlalgorithms.CustomViewButton
+        android:id="@+id/btn_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
 

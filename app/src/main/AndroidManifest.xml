@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MLAlgorithms">
         <activity
+            android:name=".RetrofitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MachineLearningAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MachineLearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MachineLearningAppAcitivity"
+            android:exported="false" />
+        <activity
+            android:name=".MachineLearningApp"
+            android:exported="false" />
+        <activity
             android:name=".QuestionActivity"
             android:exported="false" />
         <activity

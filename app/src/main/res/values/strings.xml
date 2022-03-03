@@ -7,4 +7,23 @@
     <string name="result">0</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="data_name">
+        <item>Virtual Assistant</item>
+        <item>Object Detection</item>
+        <item>Cancer Prediction</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Asisten Virtual ini dibuat menggunakan library python yaitu jarvis</item>
+        <item>Object Detection ini dibuat menggunakan library python yaitu jarvis</item>
+        <item>Cancer Prediction ini dibuat menggunakan library python yaitu jarvis</item>
+    </string-array>
+
+    <integer-array name="data_icon">
+        <item>@drawable/ahmad_yani</item>
+        <item>@drawable/ahmad_dahlan</item>
+        <item>@drawable/bung_tomo</item>
+    </integer-array>
+
 </resources>

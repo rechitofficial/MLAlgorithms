@@ -12,7 +12,12 @@ import androidx.activity.result.contract.ActivityResultContracts
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
+    private lateinit var tvMachineLearning: TextView
     private lateinit var tvAnswer: TextView
+    private lateinit var btnCustom: CustomViewButton
+
+//    private lateinit var myCustomButton: CustomViewButton
+//    private lateinit var myEditText: CustomEditText
 
     private val resultLauncher = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult()
@@ -31,9 +36,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val btnAddNote: Button = findViewById(R.id.btn_addNote)
         val btnQuestion: Button = findViewById(R.id.btn_question)
         tvAnswer = findViewById(R.id.tv_answer)
+        tvMachineLearning = findViewById(R.id.tv_machineLearning)
+        btnCustom = findViewById(R.id.btn_custom)
         btnMoveActivity.setOnClickListener(this)
         btnAddNote.setOnClickListener(this)
         btnQuestion.setOnClickListener(this)
+        tvMachineLearning.setOnClickListener(this)
+        btnCustom.setOnClickListener(this)
     }
 
     @SuppressLint("QueryPermissionsNeeded")
@@ -74,7 +83,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btn_question -> {
                 val moveForResultIntent = Intent(this@MainActivity, QuestionActivity::class.java)
                 resultLauncher.launch(moveForResultIntent)
-
+            }
+            R.id.tv_machineLearning -> {
+                val moveIntent = Intent(this@MainActivity, MachineLearningActivity::class.java)
+                startActivity(moveIntent)
+            }
+            R.id.btn_custom -> {
+                val moveIntent = Intent(this, MachineLearningAppActivity::class.java)
+                startActivity(moveIntent)
             }
         }
     }
